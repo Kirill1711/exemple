@@ -1,0 +1,76 @@
+.container {
+    max-width: 1920px;
+    height: 100%;
+    background-color: #fff;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #111;
+    color: #fff;
+    padding: 1rem 1rem;
+    align-items: center;
+}
+.logo {
+    width: 85px;
+    height: 65px;
+}
+
+.address {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.address:hover {
+    color: red;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.menu__item {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.menu__item:hover {
+    color: orange;
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.contacts__item {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.contacts__number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts__icon {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.viber__icon {
+    background-image: url('./img/viber.svg');
+}
+.whatsapp__icon {
+    background-image: url('./img/whatsapp.svg');
+}
+.contacts__item::before {
+    content: '';
+    margin-left: 40px;
+}
